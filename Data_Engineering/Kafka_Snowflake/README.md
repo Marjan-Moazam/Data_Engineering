@@ -3,10 +3,6 @@
 
 This project demonstrates a simple **data pipeline** that fetches semi-real e-commerce data from [FakeStoreAPI](https://fakestoreapi.com/), pushes it to a **Kafka topic**, and consumes it into a **Snowflake** data warehouse.
 
-## 📌 Architecture Overview
-
-![Kafka-Snowflake Data Pipeline](./A_flowchart_illustrates_a_data_integration_pipelin.png)
-
 ---
 
 ## 🔧 Components
@@ -118,4 +114,4 @@ CREATE TABLE fakestore_purchases (
 
 ## 👨‍💻 Author
 
-Built with ❤️ by [Your Name]
+Built with ❤️ by Marjan Moazam
